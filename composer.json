@@ -1,0 +1,21 @@
+{
+    "name": "tobias/sf-issue-39981",
+    "description": "Foobar",
+    "type": "project",
+    "require": {
+        "symfony/workflow": "^5.2",
+        "symfony/event-dispatcher-contracts": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nyholm",
+            "email": "tobias.nyholm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
